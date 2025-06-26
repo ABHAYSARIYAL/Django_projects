@@ -1,0 +1,151 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-section input[type="text"],
+.form-section input[type="number"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.form-section button {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.results-section {
+    margin-top: 40px;
+}
+
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+    background-color: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card-img-top {
+    max-height: 180px;
+    object-fit: contain;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.btn-outline-primary {
+    font-size: 0.85rem;
+}
+/* ...existing code... */
+
+.login-section {
+    max-width: 400px;
+    margin: 60px auto 0 auto;
+    padding: 2rem 2.5rem 2rem 2.5rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.login-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.login-section .form-group {
+    margin-bottom: 1.2rem;
+}
+
+.login-section input[type="text"],
+.login-section input[type="password"] {
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    background: #f9f9f9;
+    transition: border-color 0.2s;
+}
+
+.login-section input[type="text"]:focus,
+.login-section input[type="password"]:focus {
+    border-color: #0d6efd;
+    outline: none;
+    background: #fff;
+}
+
+.login-section button {
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-top: 0.5rem;
+}
+
+.login-section .error {
+    color: #dc3545;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.95rem;
+}
+.add-product-btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+    margin-left: 8px;
+}
+
+.add-product-btn:hover, .btn-success:hover {
+    background-color: #218838;
+    color: #fff;
+}
+
+.add-product-section {
+    max-width: 500px;
+    margin: 60px auto 0 auto;
+    padding: 2rem 2.5rem 2rem 2.5rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.add-product-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.add-product-section .form-control {
+    margin-bottom: 1rem;
+}
+
+.add-product-section button {
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-top: 0.5rem;
+}
+

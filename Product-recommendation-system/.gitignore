@@ -1,0 +1,41 @@
+saved_modules/
+.venv/
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Django-specific
+*.log
+db.sqlite3
+*.pot
+*.pyc
+
+# Environment Variables
+.env
+
+# Virtual Environment
+venv/
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.so
+
+
+# CSV Data files 
+data/cleaned_product_data.csv
+
+# Media/uploads (if any)
+media/
+
+# Static compiled cache (if generated dynamically)
+staticfiles/
+
